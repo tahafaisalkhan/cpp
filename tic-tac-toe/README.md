@@ -51,10 +51,6 @@ This project is a simple console-based Tic-Tac-Toe game implemented in C++. It i
 
 Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or bug fixes.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgements
 
 - This project is part of the CS200 course assignments.
