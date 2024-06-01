@@ -1,6 +1,6 @@
 # Maze Solver
 
-This project is a maze-solving program implemented in C++ as a CS300 course assignment. The program uses recursion to find the correct path through a maze provided as a text file. The maze has a single starting point and a single finishing point.
+This project is a maze-solving program implemented in C++ as a CS200 course assignment. The program uses recursion to find the correct path through a maze provided as a text file. The maze has a single starting point and a single finishing point.
 
 ## Features
 
@@ -104,15 +104,7 @@ Success! The path is: [(1,5), (1,4), (2,4), (3,4), (3,3), (3,2), (3,1), (3,0), (
 2. Run the program with the maze file as an argument.
 3. The program will output the path and display the maze.
 
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgements
 
-- This project is part of the CS300 course assignments.
+- This project is part of the CS200 course assignments.
 - Thanks to the course instructors for their guidance and support.
