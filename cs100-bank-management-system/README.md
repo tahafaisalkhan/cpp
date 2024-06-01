@@ -1,4 +1,4 @@
-# Bank Management System
+# CS100 Bank Management System
 
 This project is a simple bank management system created as part of the CS100 course. It allows users to create new accounts, withdraw and deposit money, request loans, and print balance statements. The system uses file handling to store and retrieve user information.
 
