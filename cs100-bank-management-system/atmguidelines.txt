@@ -1,0 +1,43 @@
+ATM
+Taha Faisal Khan
+CS100 - Final Project Program Guidelines
+
+Functionality:
+The ATM opens up a panel which reads multiple different character inputs. For a user who does not have an account, c is inputted. 
+The user then inputs their desired 4-digit pin and their initial balance. They will then be presented with a credit card number which 
+they would have to note down for any future transactions within this ATM. Multiple users can try multiple operations with their
+respective card numbers/pins.
+
+Taking advantage of other functions of the ATM is easy for the user. After inputting either w, d, l, p or e, the ATM will take the user 
+to the validation panel where they input their account details. Once their account is found (if it is not, it will take the user back to 
+the main panel) they can carry out their operation. Every operation has a display window that shows what change in balance took place. 
+This stays on screen for 5 seconds before moving back to the main input panel.
+
+Requesting a loan will add value to your unpaid loan but DOES NOT add value to your current balance. Every time a loan is taken, the 
+overall unpaid loan increases.
+
+The ATM can only be exited from the main panel by inputting e.
+
+
+Functions:
+•	Void updatefile: This is the main function that is used to do the file handling throughout the program. Every time either the balance 
+or loan is updated, the updatefile updates these values within the datafiles for future use
+•	Void interface: This introduces the main interface for the function
+•	Void adduser: Used to add new users to the datafiles. It also generates a random 11-digit credit card number for the user
+•	Bool validation: The validation panel that shows up before every operation within the ATM. Checks whether the credit card number for 
+the user exists.
+•	Int withdraw: Withdrawing money operation for the user
+•	Int deposit: Depositing money operation for the user
+•	Int loan: For taking loan and calculating total loan for the user
+•	Void statement: Gives the current state of the user’s balance and loan
+
+
+Important Notes
+•	System clear and system color functions are used that are Windows OS specific. If run on Mac or Linux, the program WILL run but every 
+time the display is shown, there will be an error command reading:
+				sh: cls: command not found 
+•	The datafile.txt and datatemp.txt file must be in the correct directories for the programme to run properly. Without these, user will 
+not be able to access any accounts.
+
+in case card not found error showing multiple times, data files need to be wiped clean
+
